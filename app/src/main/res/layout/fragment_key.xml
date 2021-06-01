@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentKey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".KeyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/alt_img_key"
+            android:src="@drawable/key" />
+
+        <TextView
+            style="@style/tv_title"
+            android:layout_marginTop="20dp"
+            android:text="@string/key_title" />
+
+        <TextView
+            style="@style/tv_descr"
+            android:layout_marginTop="10dp"
+            android:autoLink="web"
+            android:text="@string/key_descr" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+            android:id="@+id/etKey"
+            style="@style/et_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Search"
+            android:fontFamily="@font/inter_regular"
+            android:hint="@string/et_key_hint"
+            android:inputType="text"
+            android:maxLength="32"
+            android:maxLines="1"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textColorHint="#C9C7CD" />
+
+        <ImageButton
+            android:id="@+id/btnKey"
+            style="@style/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/search"
+            android:padding="20dp"
+            android:src="@drawable/icon_get_started" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

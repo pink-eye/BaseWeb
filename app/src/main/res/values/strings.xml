@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BaseWeb</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="search">Enter any URL</string>
+    <string name="link_sign_up">TO SIGN UP</string>
+    <string name="link_login">TO LOGIN</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="alt">image of webpage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alt_img_welcome">welcome to the baseweb</string>
+    <string name="text_btn_get_started">GET STARTED</string>
+    <string name="welcome_descr">This app can get basic website information from any given URL</string>
+    <string name="welcome_title">Welcome to the BaseWeb!</string>
+    <string name="key_title">API KEY</string>
+    <string name="key_descr">To use this app you need to get an API key by https://linkpreview.net"</string>
+    <string name="et_key_hint">API key</string>
+    <string name="alt_img_key">Get access</string>
+    <string name="image_of_home">image of home</string>
+</resources>

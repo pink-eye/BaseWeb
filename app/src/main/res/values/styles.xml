@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tv_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="tv_descr">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#C1C1C1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="tv_url">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00BCD4</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_light</item>
+    </style>
+    <style name="iv_favicon">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/iv_favicon</item>
+    </style>
+    <style name="btn_search">
+        <item name="android:background">@drawable/btn_search</item>
+    </style>
+    <style name="et_search">
+        <item name="android:background">@drawable/et_search</item>
+    </style>
+    <style name="et_key">
+        <item name="android:background">@drawable/et_key</item>
+    </style>
+</resources>
