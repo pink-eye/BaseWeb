@@ -27,11 +27,13 @@
 
         <TextView
             style="@style/tv_title"
+            android:gravity="center"
             android:layout_marginTop="20dp"
             android:text="@string/welcome_title" />
 
         <TextView
             android:id="@+id/tvDescr"
+            android:gravity="center"
             style="@style/tv_descr"
             android:layout_marginTop="10dp"
             android:text="@string/welcome_descr" />

@@ -26,12 +26,14 @@
             android:src="@drawable/key" />
 
         <TextView
+            android:gravity="center"
             style="@style/tv_title"
             android:layout_marginTop="20dp"
             android:text="@string/key_title" />
 
         <TextView
             style="@style/tv_descr"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             android:autoLink="web"
             android:text="@string/key_descr" />
